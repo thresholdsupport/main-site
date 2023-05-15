@@ -83,6 +83,10 @@ div.bio>div.imgbox{
     padding-left: 2rem;
 }
 
+a#fpbold{
+    font-weight: 700;
+}
+
 p#fplink a{
     color:#ff5100;
     text-decoration: none;
