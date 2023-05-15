@@ -66,6 +66,10 @@ div.imgbox>img{
     width: 100%;
 }
 
+div#bioimage{
+    padding-bottom: 1.5rem;
+}
+
 div.bio{
     margin-top: 3vw;
 }
