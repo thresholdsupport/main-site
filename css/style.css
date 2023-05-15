@@ -125,7 +125,7 @@ footer>p{
     font-size: .75rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     section.one{
         width: 85vw;
     }
