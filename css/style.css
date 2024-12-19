@@ -44,7 +44,7 @@ div.desc>h3:first-child{
     color: #FFCA5F;
 }
 
-div.desc a{
+div.desc>h3#type{
     color:#ff5100;
     text-decoration: none;
 }
