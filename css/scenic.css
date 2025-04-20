@@ -7,6 +7,7 @@ body{
     /* height: 100vh; */
     background: linear-gradient(#e8c98e, 20%, #F1AFBF, #F1AFBF);
     font-family: "calendula", sans-serif;
+    margin: 0;
 }
 
 section.one{
@@ -221,8 +222,12 @@ footer{
 }
 
 @media (max-width: 900px) {
+    body{
+        width: 100vw;
+    }
+    
     section.one{
-        width: 95%;
+        width: 100%;
     }
 
     h1{
@@ -235,6 +240,11 @@ footer{
 }
 
 @media (max-width: 500px) {
+    div.hero{
+        width: 91%;
+        margin: 0 auto 15vw auto;
+    }
+    
     div.hero>h2{
         font-size: 5.5vw;
         width: 100%;
