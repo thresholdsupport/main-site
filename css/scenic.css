@@ -168,6 +168,16 @@ div#intromoretextmore>h2{
     background-color: #e8c98e;
 }
 
+div#intromoretextmore>h2>a{
+    color:#646464;
+}
+
+div#intromoretextmore h3:last-child{
+    text-align: right;
+    padding-right: 5%;
+    margin: 2rem 0;
+}
+
 div.intromore h3{
     text-align: left;
     color: #f1f1f1;
@@ -175,6 +185,10 @@ div.intromore h3{
     padding: 0 1rem;
     margin-top: 0;
     line-height: 1.15;
+}
+
+div.intromore h3>a{
+    color: #f1f1f1;
 }
 
 div.intromore h3#cost{
@@ -225,6 +239,11 @@ footer{
     body{
         width: 100vw;
     }
+
+    div.hero>h2{
+        font-weight: 600;
+        font-style: italic;
+    }
     
     section.one{
         width: 100%;
@@ -237,7 +256,8 @@ footer{
     div#intromoretextmore>h2 {
        width: 86%;
     }
-}
+
+  
 
 @media (max-width: 500px) {
     div.hero{
@@ -257,6 +277,11 @@ footer{
     div.intro{
         width: 100%;
     }
+
+    div.introlist{
+        margin: 10vw 0;
+    }
+}
 
     div.introtext{
         width: 92.5%;
@@ -299,6 +324,7 @@ footer{
     div#intromoretextmore>h2{
         width: 87.5%;
         margin: 2vw auto;
+
     }
 
     div.details{
