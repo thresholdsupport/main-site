@@ -1,0 +1,303 @@
+html{
+    scrollbar-gutter: stable;
+}
+
+body{
+    width: 97vw;
+    /* height: 100vh; */
+    background: linear-gradient(#e8c98e, 20%, #F1AFBF, #F1AFBF);
+    font-family: "calendula", sans-serif;
+}
+
+section.one{
+    width:80%;
+    margin: 0 auto;
+}
+
+div.hero{
+    width: 100%;
+    margin-bottom: 15vw;
+}
+
+div.hero>h2{
+    font-size: 3.5vw;
+    width: 65%;
+    margin: 0 0 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color:#7A94C1;
+}
+
+h1{
+    color: #F1F1F1;
+    font-size: 10.25vw;
+    font-weight: 600;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 1rem;
+    line-height: .75;
+}
+
+h2{
+    color: #7A94C1;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+h3{
+    color: #7A94C1;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: .5rem;
+}
+
+h2#name{
+    margin-top: .5rem;
+}
+
+div.intro{
+    background-image: url(../imgs/scenicroute-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+
+div.introtext{
+    width: 75%;
+    margin: 0 22.5% 0 2.5%;
+}
+
+div.introtext>h2{
+    text-align: left;
+    color: #F1F1F1;
+}
+
+div.introlist{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.introlisttext{
+    width: 46%;
+    margin: 5vw 0 5vw 2.5%;
+}
+
+div.introlisttext>h2{
+    text-align: left;
+    color: #f1f1f1;
+    font-style:italic;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+div.introlisttext>ul{
+    color: #f1f1f1;
+    font-style: italic;
+    font-size: 1.25rem;
+    margin-top: .75rem;
+    font-weight: 200;
+}
+
+div.introlisttext>ul>li{
+    padding-bottom: .5rem;
+}
+
+div.introlisttext>ul>li>h3{
+    color: #f1f1f1;
+    text-align: left;
+    display: inline;
+    font-weight: 600;
+}
+
+div.intromore{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+div.datebox{
+    width: 49%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+div.datebox>img:nth-child(odd){
+    width: 95%;
+    margin: .25rem 0 0 auto;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 1rem;
+}
+
+div.datebox>img:nth-child(n+2){
+    width: 50%;
+    align-self: flex-end;
+    margin: 2rem 0 0 auto;
+}
+
+div.intromoretext{
+    width: 49%;
+}
+
+div#intromoretextmore{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+div#intromoretextmore>h2{
+    color: #646464;
+    width: 50%;
+    align-self: flex-end;
+    text-align: center;
+    /* padding: 2vw 0 0 1rem; */
+    margin-right: 2vw;
+    margin-top: 3vw;
+    padding: .5rem;
+    border: 2px solid #e8c98e;
+    background-color: #e8c98e;
+}
+
+div.intromore h3{
+    text-align: left;
+    color: #f1f1f1;
+    font-style: normal;
+    padding: 0 1rem;
+    margin-top: 0;
+    line-height: 1.15;
+}
+
+div.intromore h3#cost{
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+div.intromore h3#space{
+    font-size: 1.5rem;
+}
+
+div.details{
+    width: 44%;
+    margin: 5.5vw auto 0 2.5%;
+    border: 2px dashed #f1f1f1;
+    padding: .75rem;
+}
+
+div.details h2{
+    color: #F1F1F1;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+div.details h3{
+    color: #f1f1f1;
+    text-align: left;
+}
+
+div.details h3:nth-child(even){
+    margin-top: 1rem;
+}
+
+footer{
+    width: 100%;
+    margin: 5vw 0 0 2.5%;
+    color: #f1f1f1;
+    padding-bottom: 2.5vw;
+}
+
+@media (max-width: 900px) {
+    section.one{
+        width: 95%;
+    }
+
+    h1{
+        font-size: 12.8vw;
+    }
+
+    div#intromoretextmore>h2 {
+       width: 86%;
+    }
+}
+
+@media (max-width: 500px) {
+    div.hero>h2{
+        font-size: 5.5vw;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    div.intro{
+        width: 100%;
+    }
+
+    div.introtext{
+        width: 92.5%;
+        margin: 0 auto;
+    }
+
+    div.introtext>h2{
+        font-size: 1.5rem;
+    }
+
+    div.introlisttext{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    div.intromore{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div.datebox{
+        width: 100%;
+        margin: 5vw 0;
+    }
+
+    div.datebox>img:nth-child(odd){
+        width: 92.5%;
+        margin: 0 auto;
+    }
+
+    div.datebox>img:nth-child(even){
+        margin: 1.5rem 5% 0 0;
+    }
+
+    div.intromoretext{
+        width: 100%;
+        margin-top: 6vw;
+    }
+
+    div#intromoretextmore>h2{
+        width: 87.5%;
+        margin: 2vw auto;
+    }
+
+    div.details{
+        width: 85%;
+        margin: 5.5vw auto;
+    }
+
+    footer{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
