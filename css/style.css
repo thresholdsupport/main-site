@@ -19,6 +19,41 @@ div.hero{
     margin-top: 5vw;
 }
 
+div.workshop{
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+div.workshop>h2{
+    font-style: italic;
+    font-family: "calendula", sans-serif;
+}
+
+div.workshop>h2#link{
+    font-size: 3vw;
+    width: 30%;
+    border: solid 2px #FFCA5F;
+    padding: 2rem;
+    align-self: flex-end;
+}
+
+div.workshop>h2#title{
+    font-size: 8vw;
+    margin: 0;
+    line-height: .75;
+}
+
+div.workshop>h3{
+    font-style: italic;
+    font-family: "calendula", sans-serif;
+    font-size: 3vw;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
 div.info{
     margin-top: 10vw;
 }
@@ -142,6 +177,22 @@ footer>p{
 
     div.contact{
         margin: 25vw 0;
+    }
+
+    div.workshop>h2#title{
+        font-size: 11vw;
+    }
+
+    div.workshop>h3{
+        font-size: 6vw;
+        font-weight: 400;
+    }
+
+    div.workshop>h2#link{
+        width: 100%;
+        font-size: 10vw;
+        padding: 1rem 0;
+        text-align: center;
     }
 
     div.bio>div.imgbox{
