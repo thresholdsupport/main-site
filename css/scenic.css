@@ -5,7 +5,7 @@ html{
 body{
     width: 97vw;
     /* height: 100vh; */
-    background: linear-gradient(#e8c98e, 20%, #F1AFBF, #F1AFBF);
+    background: linear-gradient(#e8c98e, 10%, #F1AFBF, #F1AFBF);
     font-family: "calendula", sans-serif;
     margin: 0;
 }
