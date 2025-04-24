@@ -78,6 +78,7 @@ div.introtext{
 div.introtext>h2{
     text-align: left;
     color: #F1F1F1;
+    filter: drop-shadow(1px 1px 1px #939192);
 }
 
 div.introlist{
@@ -289,7 +290,7 @@ footer{
     }
 
     div.introtext>h2{
-        font-size: 1.5rem;
+        font-size: 1.65rem;
     }
 
     div.introlisttext{
