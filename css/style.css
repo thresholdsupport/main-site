@@ -21,7 +21,7 @@ div.hero{
 
 div.workshop{
     width: 100%;
-    margin-top: 10vw;
+    margin-top: 15vw;
     display: flex;
     flex-direction: column;
 }
@@ -29,14 +29,20 @@ div.workshop{
 div.workshop>h2{
     font-style: italic;
     font-family: "calendula", sans-serif;
+    color: #F1AFBF
 }
 
 div.workshop>h2#link{
     font-size: 3vw;
     width: 30%;
-    border: solid 2px #FFCA5F;
+    border: solid 2px #F1AFBF;
     padding: 2rem;
     align-self: flex-end;
+    color: #F1AFBF;
+}
+
+div.workshop>h2#link>a{
+    color: #F1AFBF;
 }
 
 div.workshop>h2#title{
@@ -52,6 +58,7 @@ div.workshop>h3{
     margin-top: .5rem;
     margin-bottom: .5rem;
     font-weight: 400;
+    color: #F1AFBF;
 }
 
 div.info{
