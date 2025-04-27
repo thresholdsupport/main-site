@@ -28,11 +28,12 @@ div.hero>h2{
 
 a{
     text-decoration: none;
+    color: #50689f;
 }
 
 a:visited{
     text-decoration: none;
-    color:#7A94C1;
+    color:#50689f;
 }
 
 h1{
